@@ -1,0 +1,30 @@
+{
+  "name": "industrialmente-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@10.9.2",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "serve out -l 3000",
+    "lint": "eslint --max-warnings=0 app components --ext .ts,.tsx"
+  },
+  "engines": {
+    "node": ">=20.20.2 <21",
+    "npm": ">=10.9.2 <11"
+  },
+  "dependencies": {
+    "next": "15.5.15",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.39",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "15.5.15",
+    "serve": "^14.2.4",
+    "typescript": "5.9.3"
+  }
+}
